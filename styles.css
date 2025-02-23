@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 0;
+    background: url(imagenes/fondo.jpg) no-repeat center center/ cover;
+    margin: 0;
+  }
+
+/* Estilos personalizados para la tabla */
+/* Estilos personalizados para la tabla */
+.container .table {
+  color: white; /* Cambiar todo el texto dentro de la tabla a blanco */
+  background-color: #333; /* Fondo gris oscuro para la tabla */
+  width: 100%; /* La tabla ocupa el 100% del ancho disponible */
+  border-collapse: collapse; /* Colapsar las fronteras de las celdas */
+  margin-top: 20px; /* Agregar margen superior para separar la tabla de los demás elementos */
+}
+
+/* Estilo para las celdas de la tabla (encabezados y datos) */
+.container .table th, .container .table td {
+  padding: 10px; /* Espaciado dentro de las celdas */
+  border: 1px solid #555; /* Borde de las celdas en un gris más claro */
+  text-align: center; /* Alineación centrada del texto en las celdas */
+}
+
+/* Estilo para los encabezados de la tabla */
+.container .table th {
+  background-color: #444; /* Fondo gris oscuro para los encabezados */
+  color: white; /* Texto en blanco para los encabezados */
+  font-weight: bold; /* Texto en negrita para los encabezados */
+}
+
+/* Fondo alternado para las filas de la tabla (impares y pares) */
+.container .table tbody tr:nth-child(odd) {
+  background-color: #444; /* Fondo más oscuro para las filas impares */
+}
+
+.container .table tbody tr:nth-child(even) {
+  background-color: #555; /* Fondo ligeramente más claro para las filas pares */
+}
+
+/* Estilo al pasar el mouse sobre una fila */
+.container .table tbody tr:hover {
+  background-color: #666; /* Resaltar la fila al pasar el mouse */
+}
+
+.titulo-blanco {
+  color: white;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0; /* Ajuste de altura */
+  background-color: #f8f9fa;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre elementos */
+  margin: 0;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.icono-footer {
+  width: 16px; /* Tamaño del ícono */
+  height: 16px;
+}
+
+.table {
+  margin-bottom: 80px; /* Espacio suficiente para evitar que el footer cubra la tabla */
+}
+
+
